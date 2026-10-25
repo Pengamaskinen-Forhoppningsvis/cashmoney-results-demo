@@ -1,0 +1,19 @@
+/* Isolated report-center extensions; palette inherits Cashmoney --rr-* tokens. */
+.rr .rr-report-layout{display:grid;grid-template-columns:minmax(260px,340px) minmax(0,1fr);gap:24px;align-items:start}
+.rr .rr-report-settings{position:sticky;top:16px}.rr .rr-report-settings h2{margin-top:0}
+.rr .rr-report-settings select{width:100%;max-width:100%;min-height:44px;margin:8px 0 12px}
+.rr .rr-report-settings fieldset{border:0;padding:0;margin:20px 0}.rr .rr-report-settings legend{font-weight:600;margin-bottom:10px}
+.rr .rr-report-option{display:flex;flex-direction:row;gap:10px;align-items:flex-start;font-weight:400;padding:10px 0;cursor:pointer;min-height:44px}
+.rr .rr-report-option input{flex:none;width:20px;height:20px;min-height:20px;padding:0;margin-top:2px;accent-color:var(--rr-blue)}
+.rr .rr-report-option span{min-width:0;overflow-wrap:anywhere}.rr .rr-report-option small{display:block;color:var(--rr-muted);font-size:12px}
+.rr .rr-report-run-list{max-height:290px;overflow:auto;padding-right:8px}
+.rr .rr-report-output{min-width:0}.rr .rr-report-output>.rr-card{padding:28px}.rr .rr-report-steps{display:flex;flex-wrap:wrap;gap:12px 28px;list-style:none;padding:0;margin:0 0 28px;color:var(--rr-muted);font-size:14px}
+.rr .rr-report-preview{max-width:760px;margin:auto;color:var(--rr-ink);line-height:1.6;overflow-wrap:anywhere}
+.rr .rr-report-preview-head{border-top:5px solid var(--rr-blue);padding-top:24px;margin-bottom:28px}.rr .rr-report-preview section{margin:28px 0}.rr .rr-report-preview h2{font-size:28px}.rr .rr-report-preview h3{font-size:20px}.rr .rr-report-preview h4{font-size:16px;margin-bottom:8px}
+.rr .rr-report-preview table{font-size:14px;min-width:510px}.rr .rr-report-preview-run{border-top:1px solid var(--rr-line);padding-top:24px}.rr .rr-report-preview figure{margin:24px 0}.rr .rr-report-preview figcaption{font-size:14px;color:var(--rr-muted)}
+.rr .rr-report-preview .rr-chart{width:100%;height:auto;min-height:180px;max-height:320px}
+.rr .rr-report-download{margin-bottom:24px;border-top:4px solid var(--rr-blue)}.rr .rr-report-download h2{margin-top:4px}
+.rr #rr-report-error{background:var(--rr-warn-bg);border-left:3px solid var(--rr-orange);padding:12px;color:var(--rr-warn-ink)}
+.rr #rr-report-state{font-size:14px;overflow-wrap:anywhere}.rr .rr-report-settings [hidden]{display:none!important}
+@media(max-width:900px){.rr .rr-report-layout{grid-template-columns:1fr}.rr .rr-report-settings{position:static}.rr .rr-report-output>.rr-card{padding:20px}}
+@media(max-width:440px){.rr .rr-report-output>.rr-card{padding:16px}.rr .rr-report-preview .rr-chart{min-height:0}.rr .rr-report-preview figure{overflow-x:auto}.rr .rr-report-preview figure>.rr-chart{min-width:480px}.rr .rr-report-steps{gap:8px;flex-direction:column}}

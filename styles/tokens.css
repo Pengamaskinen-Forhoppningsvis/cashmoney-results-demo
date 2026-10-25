@@ -1,0 +1,11 @@
+/* Frozen visual references: web/app.html:8–38 at main 70233e5d.
+   These tokens belong only to the new isolated document. */
+.rr {
+  --rr-bg:#F6F6F3; --rr-card:#FFF; --rr-line:#E3E3DE; --rr-soft:#ECECE7;
+  --rr-ink:#15171C; --rr-muted:#5E636E; --rr-blue:#1F55C9; --rr-orange:#B4470B;
+  --rr-warn-bg:#FFF4E5; --rr-warn-line:#F3D3A8; --rr-warn-ink:#7A3A06;
+  --rr-active:#2A2D35; --rr-head-muted:#C9CCD3; --rr-blue-soft:#E4ECFB;
+  --rr-blue-ink:#163F96; --rr-ok-bg:#E3F2E9; --rr-ok-ink:#1D6B3D;
+  --rr-radius:14px; --rr-font:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --rr-mono:ui-monospace,"JetBrains Mono",SFMono-Regular,Menlo,Consolas,monospace;
+}
